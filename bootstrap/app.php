@@ -1,15 +1,10 @@
 <?php
 use FastRoute\Dispatcher;
-use League\Container\Container;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Whoops\Handler\PrettyPageHandler;
 use Whoops\Run;
 use Hazzard\Validation\Validator;
-
-
-
-
 
 
 require '../vendor/illuminate/support/helpers.php';
